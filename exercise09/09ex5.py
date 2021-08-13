@@ -1,9 +1,12 @@
+#Tehtävä L09T05
+# Print lottery numebers
+
 from random import randint
 
-rivi = []
-while len(rivi) < 7:
-    uusi = randint(1, 40)
-    if uusi not in rivi:
-        rivi.append(uusi)
+lotto = []
+while len(lotto) < 7:
+    new_number = randint(1, 40)
+    if new_number not in lotto:
+        lotto.append(new_number)
 
-print(rivi)
+print(lotto)
