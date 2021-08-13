@@ -1,12 +1,9 @@
-#Autotallissasi on kolme autoa. Tee luokka Car. Tee luokalla on kolme ominaisuutta brand, model ja price. 
-#Luo Car-luokasta vähintään kolme erilaista auto-oliota. Aseta autojen ominaisuudet seuraavasti:
+#Tehtävä L12T03
 
-#brand="Skoda" model="Octavia" price=3000
-#brand="Audi" model="A4" price=4000
-#brand="Volvo" model="V70" price=5000
+#Create class Car. Create tree objects and set values. 
+# Print total price of all tree cars.
 
-#Tulosta kaikkien autotallin kolmen auton ominaisuudet konsolille.
-#Laske myös autojen yhteishinta, ja näytä se konsolilla.
+
 import random
 
 class Car:
@@ -40,6 +37,9 @@ print("Total price of all cars is: ",car1.car_price()+car2.car_price()+car3.car_
 
 #Tehtävä L12T04
 
+#Add cars. Generate randomly five car ojects, give brand and price.
+#Count total price of added cars.
+
 
 brans_list = ["Audi","BMW","Ford","Opel","Skoda","Volvo","VW"]
 #print(brans_list)
@@ -53,13 +53,12 @@ car6 = (Car(random.choice(brans_list),"",(random.randint(1000, 10000))))
 car7 = (Car(random.choice(brans_list),"",(random.randint(1000, 10000))))
 car8 = (Car(random.choice(brans_list),"",(random.randint(1000, 10000))))
 
+#add cars to list
 all_cars.append(str(car4))
 all_cars.append(str(car5))
 all_cars.append(str(car6))
 all_cars.append(str(car7))
 all_cars.append(str(car8))
-
-
 
 
 print(all_cars)

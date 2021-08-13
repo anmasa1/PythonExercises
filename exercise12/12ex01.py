@@ -1,10 +1,12 @@
-#Tee luokka Human. Luokalla on kaksi ominaisuutta name ja age. 
-#Luo Human-luokasta kaksi olioita, joitten arvot asetat. Tulosta olioiden tiedot konsolille
+#Tehtävä L11T02
+
+#Create class Human, class has to objects
 
 class Human:
     name = ""
     age = 0
 
+#Function show_info returns name and age
     def show_info(self):
         info_name = self.name 
         info_age = self.age
@@ -19,5 +21,6 @@ woman = Human()
 woman.name = "Kaisa"
 woman.age = 21
 
+#call function show_info
 print(man.show_info())
 print(woman.show_info())

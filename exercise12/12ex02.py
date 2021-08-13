@@ -1,6 +1,5 @@
-#Tee luokka Cat. Tee luokalla on kaksi ominaisuutta name ja color, sekä yksi metodi miau.
-#Luo Cat-luokasta vähintään kaksi erilaista kissa-oliota. 
-#Näytä kissa-olioiden ominaisuudet konsolille, laita kissat myös naukumaan.
+#Tehtävä L12T02
+##Create class Cat, class has method miau
 
 class Cat:
     name = ""
