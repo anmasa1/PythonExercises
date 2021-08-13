@@ -1,5 +1,5 @@
-#Tee ohjelma, joka kysyy oppilaitten nimiä niin kauan kunnes käyttäjä antaa tyhjän syötteen. 
-#Ohjelma kertoo tämän jälkeen montako nimeä annettiin ja näyttää ne yhtenä rivinä pilkulla erotettuna.
+#Tehtävä L11T03
+# Ask names and prints the names and the number of names. An empty space terminates the loop.
 
 i = 0
 sum = 0

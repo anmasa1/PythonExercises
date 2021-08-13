@@ -1,3 +1,6 @@
+#Tehtävä L11T01
+#Change time given in seconds to hh:mm:ss
+
 seconds = int(input("Give time in seconds: "))
 
 hours = seconds // 3600
