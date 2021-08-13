@@ -1,4 +1,6 @@
 #Tehtävä L13T01 Tehtävä B
+# Print a deck of cards
+
 i = 0; 
 number = 0
 cards = []
@@ -6,10 +8,10 @@ cards = []
 
 while i < 13:
 
-   land = "hertta" 
+   land = "harts" 
    number += 1
    luku = str(number)
-   card = "hertta "+ luku   
+   card = "harts "+ luku   
    cards.append(card)
    i += 1   
 
@@ -18,10 +20,10 @@ number = 0
 
 while i < 13:
 
-   land = "ruutu" 
+   land = "diamonds" 
    number += 1
    luku = str(number)
-   card = "ruutu "+ luku   
+   card = "diamonds "+ luku   
    cards.append(card)
    i += 1   
 
@@ -30,10 +32,10 @@ number = 0
 
 while i < 13:
 
-   land = "pata" 
+   land = "spade" 
    number += 1
    luku = str(number)
-   card = "pata "+ luku   
+   card = "spade "+ luku   
    cards.append(card)
    i += 1   
 
@@ -42,16 +44,18 @@ number = 0
 
 while i < 13:
 
-   land = "risti" 
+   land = "clubs" 
    number += 1
    luku = str(number)
-   card = "risti "+ luku   
+   card = "clubs "+ luku   
    cards.append(card)
    i += 1   
 
 print(cards)
 
 #Tehtävä L13T02 Tehtävä B
+
+#shuffle deck of cards
 
 import random
 
