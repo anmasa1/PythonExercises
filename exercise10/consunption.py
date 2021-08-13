@@ -1,3 +1,5 @@
+# call function calc_consumtion
+
 from utils import calc_consumption
 
 fuelcon = int(input("What is the fuel consumption for 100 km? "))
